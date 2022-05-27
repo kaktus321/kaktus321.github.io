@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/item.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Продукт</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav_wrapper">
+            <nav class="nav">
+               <a href="index.html">ГЛАВНАЯ</a>
+               <div class="dropdown">
+                   <a class="dropbtn" href="catalog.html">КАТАЛОГ</a>
+                   <div class="dropdown_content">
+                       <li><a href="#">Мёд</a></li>
+                       <li><a href="#">Тара для мёда</a></li>
+                       <li><a href="#">Продукция пчеловодства</a></li>
+                       <li><a href="#">Ульи</a></li>
+                       <li><a href="#">Пчёлы</a></li>
+                   </div>
+                 </div>
+               <a href="about-us.html">ИНФОРМАЦИЯ</a>
+               <a class="visible" href="index.html"><img src="/img/logo.svg" alt=""></a>
+               <a href="blog.html">БЛОГ</a>
+               <a href="contact.html">КОНТАКТЫ</a>
+               <a class="buy_box_visible" href="cart.html">
+               <div class="buy_box">
+                   <img src="/img/ico/cart-ico.svg" alt="">
+                   <button>0.0 MDL</button>
+               </div>
+               </a>
+               <button id="my_btn" class="burger_btn"><img src="/img/ico/burger-btn.svg" alt="Меню-Бургер"></button>
+            </nav>
+            <div id="my_modal" class="modal">
+               <div class="model_content">
+                   <ul>
+                       <a href="index.html">ГЛАВНАЯ</a>
+                       <a href="#">КАТАЛОГ</a>
+                       <a href="about-us.html">ИНФОРМАЦИЯ</a>
+                       <a href="blog.html">БЛОГ</a>
+                       <a href="contact.html">КОНТАКТЫ</a>
+                   </ul>
+               </div>
+           </div>
+        </div>
+   </header>
+
+    <main class="main">
+        <div class="conteiner_wrapper">
+            <div class="conteiner">
+                <div class="item_wrapper">
+                    <section class="left_column">
+                        <div class="item_large">
+                            <img src="/img/honey-item.png" alt="">
+                        </div>
+                        <div class="item_small_wrapper">
+                            <div class="item_small">
+                                <img src="/img/honey-item.png" alt="">
+                            </div>
+                            <div class="item_small">
+                                <img src="/img/honey-item.png" alt="">
+                            </div>
+                            <div class="item_small none">
+                                <img src="/img/honey-item.png" alt="">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="right_column">
+                        <div class="navigation">
+                            <a href="index.html">Главная / </a><a href="#">Категории / </a>
+                            <a href="catalog.html">Мёд / </a><a class="select" href="item.html">Липовый мёд</a>
+                        </div>
+                        <span class="item_name">Липовый мёд</span><br>
+                        <span class="unknown">COD : 3054</span><br>
+                        <div class="choose_weight">
+                            <div class="weight one">
+                                <input class="weight_input" type="radio" name="weight" id="one">
+                                <label class="weigh_title" for="one">500г</label>
+                            </div>
+                            <div class="weight two">
+                                <input class="weight_input" type="radio" name="weight" id="two" checked>
+                                <label class="weigh_title" for="two">1 кг</label>
+                            </div>
+                            <div class="weight three">
+                                <input class="weight_input" type="radio" name="weight" id="three">
+                                <label class="weigh_title" for="three">1.5 кг</label>
+                            </div>
+                        </div>
+                        <div class="arrow">
+                            <img src="/img/ico/arow-down-item.svg" alt="">
+                        </div>
+                        <div class="year_box"><span class="year">ГОД СБОРА:</span><span class="option">2021</span></div>
+                        <div class="type_box"><span class="type">ТИП МЁДА  :</span><span class="option">Жидкий</span></div>
+                        <div class="price_wrapper">
+                            <div class="price_box">
+                                <div class="amount_box">
+                                    <span>-</span>
+                                    <span>1</span>
+                                    <span>+</span>
+                                </div>
+                                <span class="price">752 MDL</span>
+                            </div>
+                        </div>
+                        <div class="btn_wrapper">
+                            <a href="cart.html">В КОРЗИНУ</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="tabs_wrapper">
+                    <div class= "tab">
+                        <input class="tab_input" type="radio" name="tab_name" id="tab1" >
+                        <label class="tab_title title1" for="tab1">ОПЛАТА</label>
+                        <div class="tab_content one">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex turpis, lobortis ut semper vitae, euismod nec sem. Etiam porta lectus ut dolor laoreet ullamcorper. Sed pellentesque augue sit amet massa ultrices condimentum. Aliquam mauris eros, pretium quis facilisis sit amet, ullamcorper a est. Maecenas nec viverra augue, sit amet gravida lacus. Vivamus consectetur ultricies rutrum. Donec accumsan, quam eu vehicula fermentum, sapien lorem vulputate nisl, non auctor arcu sapien non urna. In purus sem, ultricies molestie lectus et, dapibus porta diam. Nunc at ultricies nulla, quis feugiat sem. <br>
+                            <br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Ut at ultricies odio, ut laoreet elit. Proin commodo dictum massa in gravida. Aenean quis finibus quam. Curabitur tristique augue quis risus lobortis, posuere feugiat enim gravida.
+                            <br><br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. 
+                            <br><br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. 
+                        </div>
+                    </div>
+                    <div class= "tab">
+                        <input class="tab_input" type="radio" name="tab_name" id="tab2" checked>
+                        <label class="tab_title title2" for="tab2">ОПИСАНИЕ</label>
+                        <div class="tab_content two">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex turpis, lobortis ut semper vitae, euismod nec sem. Etiam porta lectus ut dolor laoreet ullamcorper. Sed pellentesque augue sit amet massa ultrices condimentum. Aliquam mauris eros, pretium quis facilisis sit amet, ullamcorper a est. Maecenas nec viverra augue, sit amet gravida lacus. Vivamus consectetur ultricies rutrum. Donec accumsan, quam eu vehicula fermentum, sapien lorem vulputate nisl, non auctor arcu sapien non urna. In purus sem, ultricies molestie lectus et, dapibus porta diam. Nunc at ultricies nulla, quis feugiat sem. <br>
+                            <br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Ut at ultricies odio, ut laoreet elit. Proin commodo dictum massa in gravida. Aenean quis finibus quam. Curabitur tristique augue quis risus lobortis, posuere feugiat enim gravida.
+                            <br><br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. 
+                            <br><br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. 
+                        </div>
+                    </div>
+                    <div class= "tab">
+                        <input class="tab_input" type="radio" name="tab_name" id="tab3" >
+                        <label class="tab_title title3" for="tab3">ДОСТАВКА</label>
+                        <div class="tab_content three">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex turpis, lobortis ut semper vitae, euismod nec sem. Etiam porta lectus ut dolor laoreet ullamcorper. Sed pellentesque augue sit amet massa ultrices condimentum. Aliquam mauris eros, pretium quis facilisis sit amet, ullamcorper a est. Maecenas nec viverra augue, sit amet gravida lacus. Vivamus consectetur ultricies rutrum. Donec accumsan, quam eu vehicula fermentum, sapien lorem vulputate nisl, non auctor arcu sapien non urna. In purus sem, ultricies molestie lectus et, dapibus porta diam. Nunc at ultricies nulla, quis feugiat sem. <br>
+                            <br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Ut at ultricies odio, ut laoreet elit. Proin commodo dictum massa in gravida. Aenean quis finibus quam. Curabitur tristique augue quis risus lobortis, posuere feugiat enim gravida.
+                            <br><br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. 
+                            <br><br>
+                            Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. Praesent eu faucibus felis. Proin maximus risus eget dolor scelerisque viverra. Mauris lorem diam, gravida nec gravida at, congue laoreet felis. Integer varius dictum porta. Ut vehicula, libero ac convallis ultricies, est diam sollicitudin lacus, in bibendum felis arcu sit amet velit. Fusce a semper eros. Maecenas eu facilisis urna. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </main>
+    <div class="wrapper_title">
+        <span>ПОПУЛЯРНЫЕ ТОВАРЫ :</span>
+    </div>
+    <div class="wrapper">
+        <div class="bg"></div>
+		<div class="slider">
+            <div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+			<div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+			<div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+			<div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+			<div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+            <div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+            <div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+            <div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+            <div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+            <div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+            <div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+            <div class="slider__item">
+                <a href="item.html" class="sl_item">
+                    <img src="/img/honey-item.png" alt="">
+                    <span>Липовый мёд</span>         
+                </a>
+			</div>
+		</div>
+    </div>
+
+    <footer class="footer_wrapper">
+    <div class="footer">
+        <div class="logo">
+            <img src="/img/footer-logo.svg" alt="">
+        </div>
+        <div class="search">
+            <span>Хочешь получать <a href="#">актуальные новости ?</a></span>
+            <form action="#">
+                <input type="text">
+                <button>ПОДПИСАТЬСЯ</button>
+            </form>
+        </div>
+        <div class="social_box">
+            <p>FOLLOW US</p>
+            <div class="social">
+            <div>
+                <svg class="twitter" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="back_ico" d="M20.0008 39.9996C31.0464 39.9996 40.0007 31.0454 40.0007 19.9998C40.0007 8.95423 31.0464 0 20.0008 0C8.95523 0 0.00100708 8.95423 0.00100708 19.9998C0.00100708 31.0454 8.95523 39.9996 20.0008 39.9996Z" fill="#FFB33A"/>
+                    <path class="svg_ico" d="M32.2508 14.3731C31.3937 14.7532 30.4718 15.0102 29.5049 15.125C30.4921 14.5336 31.2497 13.5977 31.6073 12.4807C30.6835 13.0287 29.66 13.4262 28.5715 13.6405C27.6995 12.7118 26.457 12.1313 25.0812 12.1313C22.4416 12.1313 20.3007 14.2722 20.3007 16.9119C20.3007 17.2866 20.3431 17.6513 20.4251 18.0014C16.4521 17.8021 12.9294 15.899 10.5714 13.0059C10.16 13.7118 9.92397 14.5336 9.92397 15.4095C9.92397 17.0677 10.7686 18.5315 12.0506 19.3886C11.2673 19.364 10.5297 19.149 9.88547 18.79C9.88511 18.8103 9.88511 18.8306 9.88511 18.8506C9.88511 21.1669 11.5336 23.0988 13.7202 23.5377C13.3194 23.6475 12.8962 23.7056 12.4609 23.7056C12.1522 23.7056 11.8531 23.676 11.5614 23.6204C12.1697 25.5192 13.9348 26.9014 16.0272 26.9403C14.3908 28.2227 12.3297 28.9867 10.0894 28.9867C9.70436 28.9867 9.32289 28.9642 8.94962 28.9197C11.0641 30.2766 13.5775 31.0677 16.2771 31.0677C25.0702 31.0677 29.8789 23.7834 29.8789 17.4655C29.8789 17.2584 29.8742 17.052 29.865 16.8473C30.7998 16.1735 31.6101 15.3318 32.2508 14.3731Z" fill="#1D272E"/>
+                </svg>    
+            </div>
+                <div>
+                    <svg class="instagram" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="back_ico" d="M20.0283 25.6722C23.2973 25.6722 25.9474 23.1041 25.9474 19.9363C25.9474 16.7685 23.2973 14.2004 20.0283 14.2004C16.7592 14.2004 14.1091 16.7685 14.1091 19.9363C14.1091 23.1041 16.7592 25.6722 20.0283 25.6722Z" fill="#FFB33A"/>
+                        <path class="back_ico" d="M29.1901 20.2562C29.1901 25.1589 25.0882 29.1327 20.0284 29.1327C14.9685 29.1327 10.8666 25.1589 10.8666 20.2562C10.8666 19.3776 10.9992 18.5289 11.2447 17.7273H8.53741V30.1782C8.53741 30.8232 9.06447 31.3498 9.70897 31.3498H30.2344C30.8793 31.3498 31.4068 30.8232 31.4068 30.1782V17.7273H28.812C29.0571 18.5289 29.1901 19.3776 29.1901 20.2562Z" fill="#FFB33A"/>
+                        <path class="back_ico" d="M26.7344 14.3673H30.0658C30.7958 14.3673 31.3924 13.7707 31.3924 13.0407V9.86441C31.3924 9.13398 30.7958 8.53735 30.0658 8.53735H26.7344C26.004 8.53735 25.4073 9.13398 25.4073 9.86441V13.0407C25.4069 13.7703 26.004 14.3673 26.7344 14.3673Z" fill="#FFB33A"/>
+                        <path class="back_ico"d="M20 0C8.95427 0 0 8.95427 0 20C0 31.0457 8.95427 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95427 31.0457 0 20 0ZM30.9545 34.738H9.04593C6.9643 34.738 5.2624 33.1973 5.2624 30.9553V9.04552C5.2624 6.80266 6.9643 5.2624 9.04593 5.2624H30.9545C33.0357 5.2624 34.738 6.80266 34.738 9.04552V30.9553C34.738 33.1973 33.0353 34.738 30.9545 34.738Z" fill="#FFB33A"/>
+                    </svg>      
+                </div>
+                <div>
+                    <svg class="facebook" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="back_ico" d="M20 0C8.95427 0 0 8.95427 0 20C0 31.0457 8.95427 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95427 31.0457 0 20 0ZM27.6301 10.1852L24.8638 10.1864C22.6946 10.1864 22.2752 11.2172 22.2752 12.7296V16.0647H27.448L27.4455 21.2882H22.2756V34.693H16.8802V21.2882H12.3699V16.0647H16.8802V12.2124C16.8802 7.74179 19.6117 5.30701 23.5994 5.30701L27.6305 5.31315V10.1852H27.6301Z" fill="#FFB33A"/>
+                    </svg>                                     
+                </div>
+            </div>
+</footer>
+<!-----------------------------JavaScript----------------------------->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="/js/modal.js"></script>
+
+</body>
+</html>

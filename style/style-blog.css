@@ -1,0 +1,726 @@
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url(/font/BebasNeuePro-Book.woff2);
+  src: url(/font/BebasNeuePro-Book.woff);
+  src: url(/font/BebasNeuePro-Book.ttf);
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url(/font/GlacialIndifference-Bold.otf);
+  src: url(/font/GlacialIndifference-Italic.otf);
+  src: url(/font/GlacialIndifference-Regular.otf);
+}
+
+.input_box .img_box, .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header_wrapper, .banner_wrapper, .wrapper, .post_row_wrapper, .page_box_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav_link, .footer .footer_wrapper, .footer .footer_wrapper .footer_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fec748;
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.dropdown_button {
+  display: inline-block;
+  width: 120px;
+  height: auto;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.dropdown_button :hover {
+  background-color: #FFB33A;
+  border-radius: 25px 25px 0px 0px;
+  padding: 15px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.header_wrapper > ul > li > ul {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+}
+
+.header_wrapper > ul > li:hover > ul {
+  display: block;
+  background: #FFB33A;
+  border-radius: 0px 25px 25px 25px;
+  padding: 15px;
+}
+
+.header {
+  width: 100%;
+  height: 146px;
+  background: #1D272E;
+}
+
+.nav_link {
+  width: 1098px;
+  height: 107px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav_link img {
+  width: 124px;
+  height: 107px;
+}
+
+.nav_link a {
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.nav_link .buy_button {
+  color: #FFFFFF;
+  border: none;
+  background-color: #1D272E;
+  font-family: Bebas Neue Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_link .buy_button img {
+  width: 40px;
+  height: 34.46px;
+}
+
+.model_content ul {
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+.banner {
+  width: 100%;
+  height: 732px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/img/blog-main.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/blog-main.png);
+  margin-bottom: 28px;
+}
+
+.banner .text_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner span {
+  width: 166px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 123px;
+}
+
+.banner span img {
+  margin-right: 15px;
+}
+
+.banner p {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 80px;
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+}
+
+.banner a {
+  width: 254px;
+  height: 77px;
+  background: #FFB33A;
+  border-radius: 19px;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 51px;
+  text-align: center;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.input_box {
+  position: relative;
+}
+
+.input_box input {
+  width: 336px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 27px;
+  border: none;
+  font-family: Bebas Neue Pro;
+  font-weight: 350;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+}
+
+.input_box .img_box {
+  position: absolute;
+  right: 0;
+  background: #1D272E;
+  width: 95px;
+  height: 50px;
+  border-radius: 24px;
+  z-index: 2;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 835px;
+  list-style: none;
+}
+
+.row button {
+  font-family: Bebas Neue Pro;
+  width: 180px;
+  height: 60px;
+  background: #1D272E;
+  border-radius: 20px;
+  border: none;
+  font-weight: 350;
+  font-size: 30px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.row button:hover {
+  background: #FD9C00;
+  color: #1D272E;
+}
+
+.btn_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1000px;
+  height: 150px;
+  margin-bottom: 70px;
+}
+
+.post_row_wrapper .post_row {
+  margin-bottom: 67px;
+  width: 1122px;
+  height: 516px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post {
+  width: 350px;
+  height: 512px;
+  background: #FFF1D9;
+  border-radius: 20px;
+}
+
+.post .image {
+  margin-top: 16px;
+  margin-left: 35px;
+}
+
+.post span {
+  font-family: Bebas Neue Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #BD7500;
+  margin-left: 69px;
+  margin-top: 18px;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.post h3 {
+  font-family: Bebas Neue Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 112.66%;
+  letter-spacing: 0.105em;
+  color: #7A5417;
+  margin-left: 37px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  width: 281px;
+  height: 96px;
+  font-family: Bebas Neue Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #7A5417;
+  margin-left: 37px;
+}
+
+.post .line {
+  width: 80%;
+  height: 0px;
+  border-bottom: 1px dashed #7A5417;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.post button {
+  width: 121px;
+  height: 39px;
+  background: #BD7500;
+  border-radius: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Bebas Neue Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  cursor: pointer;
+  margin-left: 115px;
+  border: none;
+}
+
+.page_box_wrapper {
+  margin-bottom: 64px;
+  margin-top: 140px;
+}
+
+.page_box_wrapper .page_box {
+  width: 128px;
+  height: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page_box_wrapper .page_box button {
+  border: 2px solid #1D272E;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  background: none;
+  font-family: Bebas Neue Pro;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1D272E;
+  cursor: pointer;
+}
+
+.tittle_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tittle_wrapper p {
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  color: #FFFFFF;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 106px;
+          margin-block-end: 106px;
+}
+
+.footer {
+  width: 100%;
+  height: 216px;
+  background: #1D272E;
+}
+
+.footer .footer_wrapper {
+  width: 1200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer_wrapper .footer_logo {
+  width: 253.47px;
+  height: 211px;
+}
+
+.subscribe_box {
+  width: 399px;
+  height: 64px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.subscribe_box span {
+  color: #D4870C;
+}
+
+.subscribe_box input {
+  width: 399px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #BD7500;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 23px;
+}
+
+.input_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.input_box button {
+  position: absolute;
+  width: 132px;
+  height: 34px;
+  background: #fec748;
+  border: 1px solid #BD7500;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 23px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  font-family: Bebas Neue Pro;
+  color: #FFFFFF;
+  right: 0;
+  cursor: pointer;
+}
+
+.follow_box {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.follow_box .follow_social_block {
+  width: 174px;
+  height: 66px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.twitter:hover .back_ico {
+  fill: #FFFFFF;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.instagram:hover .back_ico {
+  fill: #FFFFFF;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.facebook:hover .back_ico {
+  fill: #FFFFFF;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.content_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.posts_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  width: 1122px;
+  height: 472px;
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 1200px) {
+  .row {
+    width: 510px;
+  }
+  .row button {
+    width: 112px;
+  }
+  .input_box input {
+    width: 257px;
+  }
+  .btn_wrapper {
+    width: 621px;
+  }
+  .posts_block {
+    width: 845px;
+  }
+  .post {
+    width: 270px;
+  }
+  .post .image img {
+    width: 200px;
+    height: 140px;
+  }
+  .post h3 {
+    font-size: 15px;
+  }
+  .post p {
+    width: 200px;
+    height: 167px;
+  }
+  .post .line {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+  }
+  .post button {
+    margin-left: 77px;
+  }
+  .post_row_wrapper .post_row {
+    width: 877px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner {
+    height: 497px;
+  }
+  .banner p {
+    font-size: 43px;
+  }
+  .banner a {
+    width: 148px;
+    height: 39px;
+    font-size: 23px;
+  }
+  .row {
+    width: 374px;
+  }
+  .row button {
+    width: 88px;
+    font-size: 15px;
+    height: 41px;
+  }
+  .posts_block {
+    width: 270px;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .posts_block .post {
+    margin-bottom: 20px;
+  }
+  .input_box {
+    height: 42px;
+    margin-top: 25px;
+  }
+  .input_box input {
+    height: 40px;
+  }
+  .input_box .img_box {
+    position: absolute;
+    right: 0;
+    background: #1D272E;
+    width: 95px;
+    height: 42px;
+  }
+  .btn_wrapper {
+    width: 472px;
+  }
+  .posts_block {
+    height: 1502px;
+  }
+  .wrapper {
+    height: 172px;
+  }
+  .page_box_wrapper {
+    margin-bottom: 47px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner span {
+    margin-top: 100px;
+  }
+  .posts_block_wrapper {
+    width: 325px;
+  }
+  .row {
+    width: 250px;
+  }
+  .row button {
+    width: 55px;
+    font-size: 11px;
+    height: 26px;
+  }
+  .input_box {
+    margin-top: 32px;
+  }
+  .input_box input {
+    height: 28px;
+    width: 230px;
+    font-size: 15px;
+  }
+  .input_box .img_box {
+    position: absolute;
+    right: 0;
+    background: #1D272E;
+    width: 63px;
+    height: 30px;
+  }
+  .input_box .img_box img {
+    width: 20px;
+    height: 20px;
+  }
+  .btn_wrapper {
+    height: 100px;
+    width: 330px;
+  }
+  .wrapper {
+    height: 120px;
+  }
+  .page_box_wrapper {
+    margin-bottom: 47px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .btn_wrapper {
+    margin-bottom: -37px;
+  }
+  .wrapper {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .content_wrapper {
+    margin-top: 60px;
+  }
+  .page_box_wrapper {
+    margin-bottom: 47px;
+    margin-top: 16px;
+  }
+}
+/*# sourceMappingURL=style-blog.css.map */

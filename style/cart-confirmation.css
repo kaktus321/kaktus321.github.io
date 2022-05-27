@@ -1,0 +1,214 @@
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url(/font/BebasNeuePro-Book.woff2);
+  src: url(/font/BebasNeuePro-Book.woff);
+  src: url(/font/BebasNeuePro-Book.ttf);
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url(/font/GlacialIndifference-Bold.otf);
+  src: url(/font/GlacialIndifference-Italic.otf);
+  src: url(/font/GlacialIndifference-Regular.otf);
+}
+
+.main, .elemnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.elemnt .elemet_wrapper span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fec748;
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.model_content ul {
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+.elemnt {
+  width: 1200px;
+  height: 150px;
+  background: #1D272E;
+  border-radius: 25px 25px 0px 0px;
+  margin-top: 77px;
+}
+
+.elemnt .elemet_wrapper {
+  width: 753px;
+  height: 51.59px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #B7B5B5;
+}
+
+.elemnt .elemet_wrapper span {
+  color: #FFFFFF;
+  border-bottom: 2.5px solid #FFB33A;
+  width: 300 px;
+}
+
+.elemnt img {
+  width: 35.68px;
+  height: 35px;
+}
+
+.conteiner {
+  width: 1200px;
+  min-height: 363px;
+  height: 100%;
+  background: #FFF1D9;
+  border-radius: 0px 0px 25px 25px;
+  margin-bottom: 77px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteiner p {
+  font-family: Glacial Indifference;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  width: 946px;
+  height: 133px;
+  color: #1D272E;
+  -webkit-margin-before: 65px;
+          margin-block-start: 65px;
+  -webkit-margin-after: 50px;
+          margin-block-end: 50px;
+}
+
+.btn_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn_wrapper a {
+  width: 271px;
+  height: 45px;
+  background: #FFB33A;
+  border-radius: 25px;
+  font-family: 'Glacial Indifference';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .conteiner {
+    width: 990px;
+  }
+  .elemnt {
+    width: 990px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .conteiner {
+    width: 675px;
+    padding-top: 37px;
+    min-height: 284px;
+  }
+  .conteiner p {
+    width: 569px;
+    height: 145px;
+    -webkit-margin-before: 3px;
+            margin-block-start: 3px;
+  }
+  .elemnt {
+    width: 675px;
+  }
+  .elemnt .elemet_wrapper {
+    width: 530px;
+  }
+  .elemnt .elemet_wrapper span {
+    font-size: 28px;
+    width: 187px;
+  }
+  .elemnt .elemet_wrapper p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .conteiner {
+    width: 320px;
+    height: 289px;
+  }
+  .conteiner P {
+    font-size: 21px;
+    width: 297px;
+  }
+  .elemnt {
+    width: 320px;
+    height: 80px;
+    margin-top: 37px;
+  }
+  .elemnt img {
+    width: 20px;
+  }
+  .elemnt .elemet_wrapper {
+    width: 288px;
+  }
+  .elemnt .elemet_wrapper span {
+    width: 107px;
+  }
+  .elemnt .elemet_wrapper span, .elemnt .elemet_wrapper p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=cart-confirmation.css.map */

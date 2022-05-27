@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url(/font/BebasNeuePro-Book.woff2);
+  src: url(/font/BebasNeuePro-Book.woff);
+  src: url(/font/BebasNeuePro-Book.ttf);
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url(/font/GlacialIndifference-Bold.otf);
+  src: url(/font/GlacialIndifference-Italic.otf);
+  src: url(/font/GlacialIndifference-Regular.otf);
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fec748;
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.model_content ul {
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  color: #454B50;
+  margin-top: 80px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  text-align: center;
+}
+
+.box_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 60px;
+}
+
+.box {
+  width: 198px;
+  height: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.box .bee {
+  width: 100px;
+  height: 33.33px;
+  background: #1D272E;
+  border-radius: 20px;
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.text_block_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text_block {
+  width: 1240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text_block p {
+  width: 597px;
+  height: 347px;
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.wrapper_texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.texts {
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 80px;
+  width: 1240px;
+}
+
+@media screen and (max-width: 1200px) {
+  .text_block {
+    width: 588px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .texts {
+    width: 588px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+    height: 50px;
+  }
+  .text_block {
+    width: 300px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .text_block img {
+    width: 300px;
+  }
+  .texts {
+    width: 300px;
+    margin-top: 300px;
+  }
+}
+/*# sourceMappingURL=style-blog-post.css.map */

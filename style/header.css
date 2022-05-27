@@ -1,0 +1,265 @@
+.header {
+  height: 146px;
+  width: 100%;
+  background: #1D272E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.model_content ul {
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+.nav {
+  width: 1155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: Bebas Neue Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  z-index: 10;
+}
+
+.nav .buy_box {
+  cursor: pointer;
+}
+
+.nav .buy_box button {
+  font-family: Bebas Neue Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .burger_btn {
+  display: none;
+  background: none;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  z-index: 100;
+  left: -100%;
+  top: 80px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.open {
+  left: 0;
+}
+
+.model_content {
+  width: 100px;
+  margin-top: 30px;
+}
+
+.model_content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.model_content ul a {
+  text-decoration: none;
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+body.noscroll {
+  overflow: hidden;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  z-index: 5;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  z-index: -2;
+  width: 252px;
+  height: 261px;
+  background-image: url(/img/ico/dropdown-BG.svg);
+  padding-top: 54px;
+  background-repeat: no-repeat;
+}
+
+.dropdown_content li {
+  margin-bottom: 15px;
+  margin-left: 21px;
+  list-style: none;
+  z-index: 5;
+}
+
+.dropdown_content li a {
+  text-transform: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Bebas Neue Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    width: 800px;
+  }
+  .nav a {
+    font-size: 18px;
+  }
+  .nav .buy_box button {
+    font-size: 16px;
+  }
+  .nav .dropdown .dropdown_content {
+    top: -35px;
+    left: -47px;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav {
+    width: 650px;
+  }
+  .nav a {
+    font-size: 14px;
+  }
+  .nav .buy_box button {
+    font-size: 14px;
+  }
+  .nav .dropdown .dropdown_content {
+    top: -60px;
+    left: -68px;
+    -webkit-transform: scale(0.56);
+            transform: scale(0.56);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 80px;
+  }
+  .nav {
+    width: 265px;
+  }
+  .nav a {
+    font-size: 14px;
+    display: none;
+  }
+  .nav .visible {
+    display: block;
+  }
+  .nav .visible img {
+    width: 74px;
+    height: 70px;
+  }
+  .nav .buy_box_visible {
+    display: block;
+  }
+  .nav .burger_btn {
+    display: block;
+    border: none;
+    cursor: pointer;
+  }
+  .nav p img {
+    width: 74px;
+    height: 70px;
+  }
+  .nav .dropdown {
+    display: none;
+  }
+  .nav .buy_box {
+    margin-left: 30px;
+  }
+  .nav .buy_box img {
+    width: 25px;
+    height: 21.50px;
+  }
+  .nav .buy_box button {
+    font-size: 14px;
+  }
+  .nav .dropdown .dropdown_content {
+    top: -60px;
+    left: -68px;
+    -webkit-transform: scale(0.56);
+            transform: scale(0.56);
+  }
+}
+/*# sourceMappingURL=header.css.map */

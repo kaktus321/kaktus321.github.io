@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Bebas Neue Pro';
+    src: url(/font/BebasNeuePro-Book.woff2);
+    src: url(/font/BebasNeuePro-Book.woff); 
+    src: url(/font/BebasNeuePro-Book.ttf);
+}
+
+@font-face {
+    font-family: "Glacial Indifference";
+    src: url(/font/GlacialIndifference-Bold.otf);
+    src: url(/font/GlacialIndifference-Italic.otf);
+    src: url(/font/GlacialIndifference-Regular.otf);
+}
+
+//font-size
+$fz_1: 12px;
+$fz_2: 15px;
+$fz_3: 20px;
+$fz_4: 22px;
+$fz_5: 25px;
+$fz_6: 35px;
+$fz_7: 40px;
+$fz_8: 50px;
+$fz_9: 80px;
+
+
+
+     //color
+$color_1: #1D272E;
+$color_3: #FFB33A;
+$color_4: #FFFFFF;
+$color_5: #D4870C;
+$color_6: #F7E3BE;
+$color_7: rgb(254, 199, 72);
+$color_8: black;
+$color_9: #FFF1D9;
+$color_10: #D5870C;
+$color_11: #BD7500;
+
+    
+    //flexbox
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+%flex-center-horizontal {
+    display: flex;
+    justify-content: center;
+}
+    
+%flex-center-vertical{
+    display: flex;
+    align-items: center;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: $color_7;
+    font-family: 'Bebas Neue Pro';
+    font-style: normal;
+    font-weight: normal;
+}
+.model_content ul {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.main {
+    @extend%flex-center;
+}
+
+.elemnt {
+    width: 1200px;
+    height: 150px;
+    background: #1D272E;
+    border-radius: 25px 25px 0px 0px;
+    @extend%flex-center;
+    margin-top: 77px;
+    .elemet_wrapper {
+        width: 753px;
+        height: 51.59px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 40px;
+        color: #B7B5B5;
+        span {
+            color: #FFFFFF;
+            border-bottom: 2.5px solid #FFB33A;
+            width: 300 px;
+            @extend%flex-center-horizontal;
+        }
+    }
+    img {
+        width: 35.68px;
+        height: 35px;
+    }
+}
+
+.conteiner {
+    width: 1200px;
+    min-height: 363px;
+    height: 100%;
+    background: #FFF1D9;
+    border-radius: 0px 0px 25px 25px;
+    margin-bottom: 77px;
+    display: flex;
+    justify-content: center;
+    p {
+        font-family: Glacial Indifference;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: center;
+        width: 946px;
+        height: 133px;
+        color: #1D272E;
+        margin-block-start: 65px;
+        margin-block-end: 50px;
+    }
+}
+
+.btn_wrapper {
+    display: flex;
+    justify-content: center;
+    a {
+        width: 271px;
+        height: 45px;
+        background: #FFB33A;
+        border-radius: 25px;
+        font-family: 'Glacial Indifference';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .conteiner {
+        width: 990px;
+    }
+    .elemnt {
+        width: 990px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .conteiner {
+        width: 675px;
+        padding-top: 37px;
+        min-height: 284px;
+        p {
+            width: 569px;
+            height: 145px;
+            margin-block-start: 3px;
+        }
+    }
+    .elemnt {
+        width: 675px;
+        .elemet_wrapper {
+            width: 530px;
+            span {
+                font-size: 28px;
+                width: 187px;
+            }
+            p {
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .conteiner {
+        width: 320px;
+        height: 289px;
+        P {
+            font-size: 21px;
+            width: 297px;
+        }
+    }
+    .elemnt {
+        width: 320px;
+        height: 80px;
+        margin-top: 37px;
+        img {
+            width: 20px;
+        }
+        .elemet_wrapper {
+            width: 288px;
+            span {
+                width: 107px;
+            }
+            span, p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+}
